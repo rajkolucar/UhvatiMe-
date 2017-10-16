@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rajko.uhvatime.MainActivity">
+
+    <TextView
+        android:id="@+id/rezultatLabela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rezultat: 300"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/crna"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/crna"/>
+
+        <ImageView
+            android:id="@+id/crvena"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/crvena"/>
+
+        <ImageView
+            android:id="@+id/plava"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/plava"/>
+
+        <ImageView
+            android:id="@+id/zuta"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/zuta"/>
+
+        <ImageView
+            android:id="@+id/zelena"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/zelena"/>
+
+        <Button
+            android:text="levo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:layout_gravity="left|bottom"
+            android:id="@+id/levo" />
+
+        <Button
+            android:text="desno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:layout_gravity="right|bottom"
+            android:id="@+id/desno" />
+
+        <ImageView
+            android:id="@+id/malizeleni"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/malizeleni"
+            android:layout_gravity="bottom"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

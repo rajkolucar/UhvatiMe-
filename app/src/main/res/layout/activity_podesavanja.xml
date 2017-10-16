@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:text="Zvuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zvukTekst"
+        android:layout_marginTop="150dp"
+        />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zvuk"
+        android:onClick="kontrola"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignBaseline="@+id/zvukTekst"
+        android:layout_alignBottom="@+id/zvukTekst"
+        android:layout_toRightOf="@+id/zvukTekst"
+        android:layout_toEndOf="@+id/zvukTekst" />
+
+</RelativeLayout>

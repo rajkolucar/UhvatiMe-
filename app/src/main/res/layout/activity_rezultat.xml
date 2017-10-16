@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rezultat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajko.uhvatime.Rezultat"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gotovo!!"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/rezultati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Rezultati"
+        android:textAllCaps="false"
+        android:onClick="rezultati"/>
+
+    <Button
+        android:id="@+id/tweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="tweet"
+        android:textAllCaps="false"
+        android:onClick="tvituj"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Ponovo"
+        android:textAllCaps="false"
+        android:onClick="ponovo"/>
+
+</LinearLayout>
